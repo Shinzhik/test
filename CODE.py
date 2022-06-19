@@ -12,3 +12,10 @@
         if (gcd(i, F) == 1):
             e = i
             break
+    while True:
+        M = int(input('Message: '))
+        if M>=n:
+            print("Enter a Message less")
+        else:
+            break
+
